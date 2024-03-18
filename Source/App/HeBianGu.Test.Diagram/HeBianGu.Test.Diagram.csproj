@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <!--<Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>-->
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Control\H.Controls.Diagram.Extensions.Workflow\H.Controls.Diagram.Extensions.Workflow.csproj" />
+    <ProjectReference Include="..\..\Control\H.Controls.Diagram.Extension\H.Controls.Diagram.Extension.csproj" />
+    <ProjectReference Include="..\..\Control\H.Controls.Diagram\H.Controls.Diagram.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.Controls.Diagram", "..\Source\Control\H.Controls.Diagram\H.Controls.Diagram.csproj", "{F0A6E2E4-B85B-4CD1-B31B-FE68E4F6CC09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - App", "1 - App", "{783CD0C5-4531-49B6-B2F4-B7B6C5907A14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Control", "2 - Control", "{E1EB64A0-9791-405C-BDF3-F50FC460556D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Test.Diagram", "..\Source\App\HeBianGu.Test.Diagram\HeBianGu.Test.Diagram.csproj", "{C9465282-3DC4-4401-AAAC-A803204308DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.Controls.Diagram.Extension", "..\Source\Control\H.Controls.Diagram.Extension\H.Controls.Diagram.Extension.csproj", "{19B1004C-6DE6-444B-BE81-422492C899C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.Controls.Diagram.Extensions.Workflow", "..\Source\Control\H.Controls.Diagram.Extensions.Workflow\H.Controls.Diagram.Extensions.Workflow.csproj", "{12D2FFBA-97BE-4A9C-BEBA-95F0B55866D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A6E2E4-B85B-4CD1-B31B-FE68E4F6CC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A6E2E4-B85B-4CD1-B31B-FE68E4F6CC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A6E2E4-B85B-4CD1-B31B-FE68E4F6CC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A6E2E4-B85B-4CD1-B31B-FE68E4F6CC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9465282-3DC4-4401-AAAC-A803204308DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9465282-3DC4-4401-AAAC-A803204308DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9465282-3DC4-4401-AAAC-A803204308DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9465282-3DC4-4401-AAAC-A803204308DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B1004C-6DE6-444B-BE81-422492C899C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B1004C-6DE6-444B-BE81-422492C899C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B1004C-6DE6-444B-BE81-422492C899C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B1004C-6DE6-444B-BE81-422492C899C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D2FFBA-97BE-4A9C-BEBA-95F0B55866D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D2FFBA-97BE-4A9C-BEBA-95F0B55866D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D2FFBA-97BE-4A9C-BEBA-95F0B55866D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D2FFBA-97BE-4A9C-BEBA-95F0B55866D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0A6E2E4-B85B-4CD1-B31B-FE68E4F6CC09} = {E1EB64A0-9791-405C-BDF3-F50FC460556D}
+		{C9465282-3DC4-4401-AAAC-A803204308DB} = {783CD0C5-4531-49B6-B2F4-B7B6C5907A14}
+		{19B1004C-6DE6-444B-BE81-422492C899C9} = {E1EB64A0-9791-405C-BDF3-F50FC460556D}
+		{12D2FFBA-97BE-4A9C-BEBA-95F0B55866D6} = {E1EB64A0-9791-405C-BDF3-F50FC460556D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3209ADB-47D2-4CF4-9E58-C9732E823D6A}
+	EndGlobalSection
+EndGlobal
