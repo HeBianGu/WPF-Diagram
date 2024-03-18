@@ -15,19 +15,19 @@
                               ViewportUnits="Absolute">
                     <DrawingBrush.Drawing>
                         <DrawingGroup>
-                            <GeometryDrawing Brush="Red">
+                            <GeometryDrawing Brush="#FFF0F0F0" >
                                 <GeometryDrawing.Geometry>
                                     <RectangleGeometry Rect="0 0 100 100" />
                                 </GeometryDrawing.Geometry>
                             </GeometryDrawing>
 
-                            <GeometryDrawing Brush="Orange">
+                            <GeometryDrawing Brush="White">
                                 <GeometryDrawing.Geometry>
                                     <RectangleGeometry Rect="0 0 50 50" />
                                 </GeometryDrawing.Geometry>
                             </GeometryDrawing>
 
-                            <GeometryDrawing Brush="Green">
+                            <GeometryDrawing Brush="WhiteSmoke">
                                 <GeometryDrawing.Geometry>
                                     <RectangleGeometry Rect="50 50 50 50" />
                                 </GeometryDrawing.Geometry>
