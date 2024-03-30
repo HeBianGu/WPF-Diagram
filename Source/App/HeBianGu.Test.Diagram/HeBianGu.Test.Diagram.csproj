@@ -9,6 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\开关矩阵.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Remove="Images\下载 (11).png" />
+    <Resource Remove="Images\下载 (13).png" />
+    <Resource Remove="Images\下载 (2).png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Control\HeBianGu.Diagram.Presenter.Workflow\HeBianGu.Diagram.Presenter.Workflow.csproj" />
   </ItemGroup>
 

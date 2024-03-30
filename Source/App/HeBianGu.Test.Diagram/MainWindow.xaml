@@ -179,15 +179,25 @@
                         <ScrollViewer>
                             <ItemsControl>
                                 <h:ImageNodeData Name=""
-                                                 Text="我的电脑" />
+                                                 Width="200"
+                                                 Height="150"
+                                                 ImageSource="pack://application:,,,/HeBianGu.Test.Diagram;component/Images/电源.png"
+                                                 Text="电源" />
                                 <h:ImageNodeData Name=""
-                                                 Text="网上邻居" />
+                                                 Width="200"
+                                                 Height="150"
+                                                 ImageSource="pack://application:,,,/HeBianGu.Test.Diagram;component/Images/功率计.png"
+                                                 Text="功率计" />
                                 <h:ImageNodeData Name=""
-                                                 Text="服务器" />
+                                                 Width="200"
+                                                 Height="150"
+                                                 ImageSource="pack://application:,,,/HeBianGu.Test.Diagram;component/Images/开关矩阵.png"
+                                                 Text="开关矩阵" />
                                 <h:ImageNodeData Name=""
-                                                 Text="网关" />
-                                <h:ImageNodeData Name=""
-                                                 Text="客户" />
+                                                 Width="200"
+                                                 Height="150"
+                                                 ImageSource="pack://application:,,,/HeBianGu.Test.Diagram;component/Images/频谱分析仪.png"
+                                                 Text="频谱分析仪" />
                             </ItemsControl>
                         </ScrollViewer>
                     </TabItem>
@@ -326,14 +336,16 @@
                             BorderThickness="0"
                             DockPanel.Dock="Right"
                             TabStripPlacement="Bottom">
-                    --><!--<TabItem Header="画板属性">
+                -->
+                <!--<TabItem Header="画板属性">
                         <h:PropertyGrid HideInheritedProperties="True"
                                         SelectedObject="{Binding ElementName=diagram}" />
                     </TabItem>-->
 
-                    <!--<TabItem Header="选中节点属性">
+                <!--<TabItem Header="选中节点属性">
                         <h:PropertyGrid SelectedObject="{Binding ElementName=diagram, Path=SelectedPart.Content}" />
-                    </TabItem>--><!--
+                    </TabItem>-->
+                <!--
                 </TabControl>-->
                 <Border>
                     <!--<h:Zoombox x:Name="zoomview"

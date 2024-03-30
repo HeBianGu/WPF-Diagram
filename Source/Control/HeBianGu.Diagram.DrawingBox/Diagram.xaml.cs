@@ -809,7 +809,7 @@ namespace HeBianGu.Diagram.DrawingBox
         public void ZoomTo(Rect rect)
         {
             IZoombox zoombox = this.GetParent<DependencyObject>(x => x is IZoombox) as IZoombox;
-            zoombox.ZoomTo(rect);
+            zoombox?.ZoomTo(rect);
         }
 
         #endregion
