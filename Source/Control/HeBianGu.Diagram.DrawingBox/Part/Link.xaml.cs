@@ -104,7 +104,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(PathStyleProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty PathStyleProperty =
             DependencyProperty.Register("PathStyle", typeof(Style), typeof(Link), new PropertyMetadata(default(Style), (d, e) =>
             {
@@ -122,7 +122,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(ForegroundProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty ForegroundProperty =
             DependencyProperty.Register("Foreground", typeof(Brush), typeof(Link), new FrameworkPropertyMetadata(default(Brush), (d, e) =>
              {
@@ -149,7 +149,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(FontSizeProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty FontSizeProperty =
             DependencyProperty.Register("FontSize", typeof(double), typeof(Link), new FrameworkPropertyMetadata(default(double), (d, e) =>
              {

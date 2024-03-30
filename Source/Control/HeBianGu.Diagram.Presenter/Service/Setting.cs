@@ -1,13 +1,5 @@
 ﻿// Copyright © 2024 By HeBianGu(QQ:908293466) https://github.com/HeBianGu/WPF-Control
 
-
-
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Media;
-
 namespace HeBianGu.Diagram.Presenter
 {
     //[Display(Name = "绘图面板", GroupName = SettingGroupNames.GroupApp)]

@@ -4,7 +4,6 @@
 
 using HeBianGu.Diagram.DrawingBox;
 using System.Linq;
-using System.Windows;
 using System.Windows.Controls;
 
 namespace HeBianGu.Diagram.Presenter

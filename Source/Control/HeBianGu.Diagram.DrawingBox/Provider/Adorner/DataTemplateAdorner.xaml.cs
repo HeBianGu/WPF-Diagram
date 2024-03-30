@@ -64,7 +64,7 @@ namespace HeBianGu.Diagram.DrawingBox
             obj.SetValue(DataProperty, value);
         }
 
-       
+
         public static readonly DependencyProperty DataProperty =
             DependencyProperty.RegisterAttached("Data", typeof(object), typeof(DataTemplateAdorner), new PropertyMetadata(default(object), OnDataChanged));
 

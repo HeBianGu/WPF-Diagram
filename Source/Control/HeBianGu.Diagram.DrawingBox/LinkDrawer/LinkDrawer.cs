@@ -30,7 +30,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(IsLinkCrossBoundProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty IsLinkCrossBoundProperty =
             DependencyProperty.Register("IsLinkCrossBound", typeof(bool), typeof(LinkDrawer), new PropertyMetadata(true, (d, e) =>
             {
@@ -54,7 +54,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(IsUseArrowProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty IsUseArrowProperty =
             DependencyProperty.Register("IsUseArrow", typeof(bool), typeof(LinkDrawer), new FrameworkPropertyMetadata(true, (d, e) =>
              {
@@ -86,7 +86,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(ArrowAngleProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty ArrowAngleProperty =
             DependencyProperty.Register("ArrowAngle", typeof(double), typeof(LinkDrawer), new FrameworkPropertyMetadata(Math.PI / 6, (d, e) =>
              {
@@ -115,7 +115,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(ArrowLengthProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty ArrowLengthProperty =
             DependencyProperty.Register("ArrowLength", typeof(double), typeof(LinkDrawer), new FrameworkPropertyMetadata(5.0, (d, e) =>
              {

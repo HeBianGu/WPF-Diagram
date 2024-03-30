@@ -1,13 +1,13 @@
 ﻿// Copyright © 2024 By HeBianGu(QQ:908293466) https://github.com/HeBianGu/WPF-Control
 
 
+using HeBianGu.Diagram.DrawingBox;
 using Microsoft.Xaml.Behaviors;
 using System;
 using System.Collections;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using HeBianGu.Diagram.DrawingBox;
 
 namespace HeBianGu.Diagram.Presenter
 {

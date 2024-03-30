@@ -1,6 +1,5 @@
 ﻿// Copyright © 2024 By HeBianGu(QQ:908293466) https://github.com/HeBianGu/WPF-Control
 
-using H.Controls.Adorner;
 using HeBianGu.Diagram.DrawingBox;
 using System.Windows;
 using System.Windows.Controls;
@@ -35,7 +34,7 @@ namespace HeBianGu.Diagram.Presenter.Workflow
             obj.SetValue(TemplateProperty, value);
         }
 
-       
+
         public static new readonly DependencyProperty TemplateProperty =
             DependencyProperty.RegisterAttached("Template", typeof(ControlTemplate), typeof(WorkflowNodeAdorner), new PropertyMetadata(default(ControlTemplate), OnTemplateChanged));
 

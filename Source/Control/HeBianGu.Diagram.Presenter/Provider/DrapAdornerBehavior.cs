@@ -29,7 +29,7 @@ namespace HeBianGu.Diagram.Presenter
             set { SetValue(OpacityProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty OpacityProperty =
             DependencyProperty.Register("Opacity", typeof(double), typeof(DragAdornerBehavior), new PropertyMetadata(0.5, (d, e) =>
              {
@@ -48,7 +48,7 @@ namespace HeBianGu.Diagram.Presenter
             set { SetValue(AncestorTypeProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty AncestorTypeProperty =
             DependencyProperty.Register("AncestorType", typeof(Type), typeof(DragAdornerBehavior), new PropertyMetadata(typeof(ScrollViewer), (d, e) =>
              {
@@ -66,7 +66,7 @@ namespace HeBianGu.Diagram.Presenter
             set { SetValue(DragGroupProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty DragGroupProperty =
             DependencyProperty.Register("DragGroup", typeof(string), typeof(DragAdornerBehavior), new PropertyMetadata("DragGroup", (d, e) =>
             {
@@ -85,7 +85,7 @@ namespace HeBianGu.Diagram.Presenter
             set { SetValue(DragDropEffectsProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty DragDropEffectsProperty =
             DependencyProperty.Register("DragDropEffects", typeof(DragDropEffects), typeof(DragAdornerBehavior), new PropertyMetadata(DragDropEffects.Copy, (d, e) =>
              {

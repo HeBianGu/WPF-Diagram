@@ -3,7 +3,6 @@
 
 
 
-using System.Windows;
 using System.Windows.Controls;
 
 namespace HeBianGu.Diagram.DrawingBox

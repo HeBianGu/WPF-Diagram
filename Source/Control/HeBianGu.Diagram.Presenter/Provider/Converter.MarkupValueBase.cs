@@ -109,7 +109,7 @@ namespace HeBianGu.Diagram.Presenter
     {
         public override object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value ==null)
+            if (value == null)
                 return Visibility.Collapsed;
             return Visibility.Visible;
         }

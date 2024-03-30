@@ -20,7 +20,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(OrientationProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty OrientationProperty =
             DependencyProperty.Register("Orientation", typeof(Orientation), typeof(ArcLinkDrawer), new FrameworkPropertyMetadata(default(Orientation), (d, e) =>
              {

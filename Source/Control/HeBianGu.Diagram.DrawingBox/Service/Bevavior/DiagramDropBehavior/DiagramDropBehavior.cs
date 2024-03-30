@@ -2,7 +2,6 @@
 
 
 
-using HeBianGu.Diagram.DrawingBox;
 using Microsoft.Xaml.Behaviors;
 using System;
 using System.Windows;

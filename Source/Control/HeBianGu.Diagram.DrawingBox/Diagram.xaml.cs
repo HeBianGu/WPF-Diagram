@@ -446,7 +446,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(UseStartNodeOnlyProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty UseStartNodeOnlyProperty =
             DependencyProperty.Register("UseStartNodeOnly", typeof(bool), typeof(Diagram), new FrameworkPropertyMetadata(default(bool), (d, e) =>
             {
@@ -473,7 +473,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(FlowableModeProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty FlowableModeProperty =
             DependencyProperty.Register("FlowableMode", typeof(DiagramFlowableMode), typeof(Diagram), new FrameworkPropertyMetadata(DiagramFlowableMode.Link, (d, e) =>
             {
@@ -500,7 +500,7 @@ namespace HeBianGu.Diagram.DrawingBox
             private set { SetValue(StateProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty StateProperty =
             DependencyProperty.Register("State", typeof(DiagramFlowableState), typeof(Diagram), new FrameworkPropertyMetadata(default(DiagramFlowableState), (d, e) =>
             {
@@ -526,7 +526,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(MessageProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty MessageProperty =
             DependencyProperty.Register("Message", typeof(string), typeof(Diagram), new FrameworkPropertyMetadata(default(string), (d, e) =>
             {
@@ -553,7 +553,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(LayoutProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty LayoutProperty =
             DependencyProperty.Register("Layout", typeof(ILayout), typeof(Diagram), new FrameworkPropertyMetadata(default(ILayout), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault, (d, e) =>
             {
@@ -592,7 +592,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(SelectedPartProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty SelectedPartProperty =
             DependencyProperty.Register("SelectedPart", typeof(Part), typeof(Diagram), new FrameworkPropertyMetadata(default(Part), FrameworkPropertyMetadataOptions.BindsTwoWayByDefault, (d, e) =>
             {
@@ -613,7 +613,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(SelectedNodeProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty SelectedNodeProperty =
             DependencyProperty.Register("SelectedNode", typeof(Node), typeof(Diagram), new PropertyMetadata(default(Node), (d, e) =>
             {
@@ -636,7 +636,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(NodesSourceProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty NodesSourceProperty =
             DependencyProperty.Register("NodesSource", typeof(IList), typeof(Diagram), new PropertyMetadata(new ObservableCollection<Node>(), (d, e) =>
             {
@@ -667,7 +667,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(UseFlowableSelectToRunningProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty UseFlowableSelectToRunningProperty =
             DependencyProperty.Register("UseFlowableSelectToRunning", typeof(bool), typeof(Diagram), new FrameworkPropertyMetadata(false, (d, e) =>
             {
@@ -694,7 +694,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(FlowableZoomModeProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty FlowableZoomModeProperty =
             DependencyProperty.Register("FlowableZoomMode", typeof(DiagramFlowableZoomMode), typeof(Diagram), new FrameworkPropertyMetadata(default(DiagramFlowableZoomMode), (d, e) =>
             {
@@ -992,7 +992,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(DurationProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty DurationProperty =
             DependencyProperty.Register("Duration", typeof(TimeSpan), typeof(Diagram), new PropertyMetadata(TimeSpan.FromMilliseconds(500), (d, e) =>
              {
@@ -1033,7 +1033,7 @@ namespace HeBianGu.Diagram.DrawingBox
             set { SetValue(LinkDrawerProperty, value); }
         }
 
-        
+
         public static readonly DependencyProperty LinkDrawerProperty =
             DependencyProperty.Register("LinkDrawer", typeof(ILinkDrawer), typeof(Diagram), new PropertyMetadata(default(ILinkDrawer), (d, e) =>
              {
