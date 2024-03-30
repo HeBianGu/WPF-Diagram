@@ -440,7 +440,6 @@ namespace HeBianGu.Diagram.DrawingBox
 
             }));
 
-        [Display(Name = "启用开始点接口检查", GroupName = "流程控制")]
         public bool UseStartNodeOnly
         {
             get { return (bool)GetValue(UseStartNodeOnlyProperty); }
