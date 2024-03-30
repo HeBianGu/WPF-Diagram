@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <ItemGroup>
+    <ProjectReference Include="..\HeBianGu.Diagram.Presenter\HeBianGu.Diagram.Presenter.csproj" />
+  </ItemGroup>
+</Project>

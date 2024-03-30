@@ -1,11 +1,15 @@
 ﻿<Window x:Class="HeBianGu.Test.Diagram.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:h="https://github.com/HeBianGu"
+        xmlns:local="clr-namespace:HeBianGu.Test.Diagram"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:HeBianGu.Test.Diagram" xmlns:h="QQ:908293466" xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Width="800"
+        Height="450"
+        mc:Ignorable="d">
     <TabControl>
         <TabItem Header="Diagram">
             <DockPanel>
@@ -317,20 +321,20 @@
                         </ScrollViewer>
                     </TabItem>-->
                 </TabControl>
-                <TabControl Width="300"
+                <!--<TabControl Width="300"
                             Padding="5"
                             BorderThickness="0"
                             DockPanel.Dock="Right"
                             TabStripPlacement="Bottom">
-                    <!--<TabItem Header="画板属性">
+                    --><!--<TabItem Header="画板属性">
                         <h:PropertyGrid HideInheritedProperties="True"
                                         SelectedObject="{Binding ElementName=diagram}" />
                     </TabItem>-->
 
                     <!--<TabItem Header="选中节点属性">
                         <h:PropertyGrid SelectedObject="{Binding ElementName=diagram, Path=SelectedPart.Content}" />
-                    </TabItem>-->
-                </TabControl>
+                    </TabItem>--><!--
+                </TabControl>-->
                 <Border>
                     <!--<h:Zoombox x:Name="zoomview"
                                Background="Transparent"
@@ -344,32 +348,32 @@
                         <h:Zoombox.ViewStack>
                             <h:ZoomboxView>500 500 500 500</h:ZoomboxView>
                         </h:Zoombox.ViewStack>-->
-                        <h:Diagram x:Name="diagram"
-                                   Width="1500"
-                                   Height="1500"
-                                   FlowableZoomMode="Center"
-                                   Focusable="True"
-                                   UseAnimation="False">
-                            <h:Diagram.Layout>
-                                <h:LocationLayout />
-                            </h:Diagram.Layout>
-                            <h:Diagram.LinkDrawer>
-                                <h:BrokenLinkDrawer />
-                            </h:Diagram.LinkDrawer>
-                            <b:Interaction.Behaviors>
-                                <h:DiagramDropTextNodeBehavior NodeType="{Binding NodeType}" />
-                            </b:Interaction.Behaviors>
-                            <b:Interaction.Triggers>
-                                <b:EventTrigger EventName="ItemsChanged">
-                                    <b:InvokeCommandAction Command="{Binding ItemsChangedCommand}"
-                                                           PassEventArgsToCommand="True" />
-                                </b:EventTrigger>
-                                <b:EventTrigger EventName="SelectedPartChanged">
-                                    <b:InvokeCommandAction Command="{Binding SelectedPartChangedCommand}"
-                                                           PassEventArgsToCommand="True" />
-                                </b:EventTrigger>
-                            </b:Interaction.Triggers>
-                        </h:Diagram>
+                    <h:Diagram x:Name="diagram"
+                               Width="1500"
+                               Height="1500"
+                               FlowableZoomMode="Center"
+                               Focusable="True"
+                               UseAnimation="False">
+                        <h:Diagram.Layout>
+                            <h:LocationLayout />
+                        </h:Diagram.Layout>
+                        <h:Diagram.LinkDrawer>
+                            <h:BrokenLinkDrawer />
+                        </h:Diagram.LinkDrawer>
+                        <b:Interaction.Behaviors>
+                            <h:DiagramDropTextNodeBehavior NodeType="{Binding NodeType}" />
+                        </b:Interaction.Behaviors>
+                        <b:Interaction.Triggers>
+                            <b:EventTrigger EventName="ItemsChanged">
+                                <b:InvokeCommandAction Command="{Binding ItemsChangedCommand}"
+                                                       PassEventArgsToCommand="True" />
+                            </b:EventTrigger>
+                            <b:EventTrigger EventName="SelectedPartChanged">
+                                <b:InvokeCommandAction Command="{Binding SelectedPartChangedCommand}"
+                                                       PassEventArgsToCommand="True" />
+                            </b:EventTrigger>
+                        </b:Interaction.Triggers>
+                    </h:Diagram>
                     <!--</h:Zoombox>-->
                 </Border>
             </DockPanel>

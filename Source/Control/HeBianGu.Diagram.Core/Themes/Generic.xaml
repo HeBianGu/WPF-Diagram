@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:h="https://github.com/HeBianGu"
+                    xmlns:local="clr-namespace:HeBianGu.Diagram.Core">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/HeBianGu.Diagram.Core;component/Themes/Default.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/HeBianGu.Diagram.Core;component/NodeResizeAdorner.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

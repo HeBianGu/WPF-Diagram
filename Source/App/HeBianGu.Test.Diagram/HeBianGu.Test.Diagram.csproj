@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Control\H.Controls.Diagram.Extensions.Workflow\H.Controls.Diagram.Extensions.Workflow.csproj" />
-    <ProjectReference Include="..\..\Control\H.Controls.Diagram.Extension\H.Controls.Diagram.Extension.csproj" />
-    <ProjectReference Include="..\..\Control\H.Controls.Diagram\H.Controls.Diagram.csproj" />
+    <ProjectReference Include="..\..\Control\HeBianGu.Diagram.Presenter.Workflow\HeBianGu.Diagram.Presenter.Workflow.csproj" />
   </ItemGroup>
 
 </Project>
