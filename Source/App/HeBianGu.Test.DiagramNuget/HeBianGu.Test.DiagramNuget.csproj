@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <!--<Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>-->
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\开关矩阵.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Remove="Images\下载 (11).png" />
+    <Resource Remove="Images\下载 (13).png" />
+    <Resource Remove="Images\下载 (2).png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HeBianGu.Diagram.Presenter.Workflow" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
