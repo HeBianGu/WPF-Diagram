@@ -10,7 +10,7 @@
 </p>
 
 <p align="left"> 
-    <a href="https://www.nuget.org/packages?q=hebiangu">
+    <a href="https://www.nuget.org/packages?q=HeBianGu.Diagram.DrawingBox">
         <img alt="nuget-version" src="https://img.shields.io/nuget/v/HeBianGu.Diagram.DrawingBox.svg"></img>
     </a>
      <a href="https://github.com/HeBianGu/WPF-Diagram/actions?query=workflow%3Abuild">

@@ -15,7 +15,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Diagram.DrawingBox
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Diagram.Presenter.Workflow", "..\Source\Control\HeBianGu.Diagram.Presenter.Workflow\HeBianGu.Diagram.Presenter.Workflow.csproj", "{2EDC6C88-8E22-4B45-A994-26FB5F6C36A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeBianGu.Test.DiagramNuget", "..\Source\App\HeBianGu.Test.DiagramNuget\HeBianGu.Test.DiagramNuget.csproj", "{48355D9C-6B81-484C-B64B-D808C9146FDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Test.DiagramNuget", "..\Source\App\HeBianGu.Test.DiagramNuget\HeBianGu.Test.DiagramNuget.csproj", "{48355D9C-6B81-484C-B64B-D808C9146FDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{3A04E530-3B98-4BD0-9872-01EE7C312DEF}"
+	ProjectSection(SolutionItems) = preProject
+		..\Directory.Build.Props = ..\Directory.Build.Props
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
