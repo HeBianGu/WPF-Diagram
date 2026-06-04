@@ -1,4 +1,5 @@
 ﻿
+using HeBianGu.Diagram.DrawingBox;
 using System;
 using System.ComponentModel;
 using System.Windows.Markup;
@@ -37,6 +38,7 @@ namespace HeBianGu.Diagram.Presenter
             GeometryConverter converter = new GeometryConverter();
             return converter.ConvertFromString("M0,0 100,0 100,60 0,60 Z") as Geometry;
         }
+
     }
 
 
@@ -49,6 +51,11 @@ namespace HeBianGu.Diagram.Presenter
         protected override Geometry GetGeometry()
         {
             return GeometryFactory.Create("F1M13,4L12,4 12,3C12,2.449 12.449,2 13,2 13.551,2 14,2.449 14,3 14,3.551 13.551,4 13,4 M11,3L11,9 11,13C11,13.552 10.551,14 10,14 9.733,14 9.482,13.896 9.293,13.707 9.104,13.518 9,13.267 9,13 9,12.733 9.104,12.482 9.293,12.293 9.482,12.104 9.733,12 10,12 10.276,12 10.5,11.776 10.5,11.5 10.5,11.224 10.276,11 10,11L4,11 4,3C4,2.449,4.449,2,5,2L11.278,2C11.106,2.295,11,2.634,11,3 M3,14C2.733,14 2.482,13.896 2.293,13.707 2.104,13.518 2,13.267 2,13 2,12.733 2.104,12.482 2.293,12.293 2.482,12.104 2.733,12 3,12L8.267,12C8.093,12.301 8,12.644 8,13 8,13.358 8.101,13.698 8.277,14z M13,1L5,1C3.897,1,3,1.897,3,3L3,11C2.466,11 1.964,11.208 1.586,11.586 1.208,11.964 1,12.466 1,13 1,13.534 1.208,14.036 1.586,14.414 1.964,14.792 2.466,15 3,15L10,15C11.103,15,12,14.103,12,13L12,9 12,5 13,5C14.103,5 15,4.103 15,3 15,1.897 14.103,1 13,1");
+        }
+
+        public override IFlowableResult Invoke(Part previors, Node current)
+        {
+            return base.Invoke(previors, current);
         }
     }
     public class BottleNodeData : GeometryNodeDataBase, ICloneable
